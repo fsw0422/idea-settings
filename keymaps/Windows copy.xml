@@ -5,8 +5,45 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="c" second-keystroke="h" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorSelectWord" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="f" second-keystroke="u" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="g" second-keystroke="i" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="ScalaConsole.Clean" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="SmartSelect" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="Terminal.ClearBuffer" />
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
   </action>

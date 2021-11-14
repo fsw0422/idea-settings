@@ -1,4 +1,4 @@
-<keymap version="1" name="Windows copy" parent="$default">
+<keymap version="1" name="Custom" parent="$default">
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="g" />
   </action>
@@ -10,6 +10,9 @@
   </action>
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="c" second-keystroke="h" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt d" />
@@ -28,9 +31,17 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="g" second-keystroke="i" />
   </action>
+  <action id="JumpToLastWindow" />
   <action id="ParameterInfo" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="ScalaConsole.Clean" />
   <action id="SearchEverywhere">
@@ -44,7 +55,13 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift p" />
+  </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
+  </action>
+  <action id="hg4idea.pull">
+    <keyboard-shortcut first-keystroke="shift u" />
   </action>
 </keymap>

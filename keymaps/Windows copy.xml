@@ -1,0 +1,10 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="g" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="SmartSelect" />
+</keymap>

@@ -9,7 +9,7 @@
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="CallHierarchy">
-    <keyboard-shortcut first-keystroke="c" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="c" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="f12" />
@@ -23,7 +23,7 @@
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="f" second-keystroke="u" />
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="f" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />

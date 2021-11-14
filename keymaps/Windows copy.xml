@@ -7,4 +7,7 @@
   </action>
   <action id="EditorSelectWord" />
   <action id="SmartSelect" />
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
+  </action>
 </keymap>

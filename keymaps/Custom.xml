@@ -28,8 +28,11 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
+  </action>
   <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="g" second-keystroke="i" />
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="i" />
   </action>
   <action id="JumpToLastWindow" />
   <action id="ParameterInfo" />

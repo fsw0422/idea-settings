@@ -5,9 +5,6 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
   </action>
-  <action id="AddToFavorites">
-    <keyboard-shortcut first-keystroke="shift alt f" />
-  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl h" />

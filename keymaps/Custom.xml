@@ -5,6 +5,9 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
   </action>
+  <action id="AddToFavorites">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -20,7 +23,7 @@
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
-    <keyboard-shortcut first-keystroke="shift alt f" />
+    <keyboard-shortcut first-keystroke="windows" second-keystroke="shift f" />
   </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />

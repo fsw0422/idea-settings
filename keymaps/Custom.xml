@@ -8,9 +8,7 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
-  <action id="CallHierarchy">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="c" />
-  </action>
+  <action id="CallHierarchy" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
@@ -22,18 +20,15 @@
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="f" />
-  </action>
+  <action id="FindUsages" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift u" />
   </action>
-  <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="i" />
-  </action>
+  <action id="GotoDeclaration" />
+  <action id="GotoImplementation" />
   <action id="JumpToLastWindow" />
   <action id="ParameterInfo" />
   <action id="ReformatCode">
@@ -63,8 +58,5 @@
   </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
-  </action>
-  <action id="hg4idea.pull">
-    <keyboard-shortcut first-keystroke="shift u" />
   </action>
 </keymap>

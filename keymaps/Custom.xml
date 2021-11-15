@@ -20,15 +20,13 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.TogglePathShowing" />
-  <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl f" />
-    <keyboard-shortcut first-keystroke="windows" second-keystroke="shift f" />
-  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="FindUsages" />
+  <action id="ForceOthersToFollowAction" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -41,6 +39,12 @@
   <action id="ParameterInfo" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="ResetToMySettings">
+    <keyboard-shortcut first-keystroke="shift ctrl o" second-keystroke="r" />
+  </action>
+  <action id="ResetToTheirsSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl o" second-keystroke="l" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt r" />

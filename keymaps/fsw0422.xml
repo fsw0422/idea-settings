@@ -1,0 +1,67 @@
+<keymap version="1" name="fsw0422" parent="Sublime Text">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="g" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
+  </action>
+  <action id="AddToFavoritesPopup" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="CallHierarchy" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorSelectLine" />
+  <action id="ExportToTextFile" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FindUsages" />
+  <action id="ForceOthersToFollowAction" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift l" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift control button1" />
+  </action>
+  <action id="GotoFile" />
+  <action id="Images.Thumbnails.Hide">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="Replace" />
+  <action id="ResetToMySettings">
+    <keyboard-shortcut first-keystroke="alt o" second-keystroke="r" />
+  </action>
+  <action id="ResetToTheirsSettings">
+    <keyboard-shortcut first-keystroke="alt o" second-keystroke="l" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="ScalaConsole.Clean" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="Terminal.ClearBuffer" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift p" />
+  </action>
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
+  </action>
+</keymap>

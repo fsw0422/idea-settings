@@ -40,8 +40,14 @@
   <action id="GotoImplementation" />
   <action id="GotoLine" />
   <action id="JumpToLastWindow" />
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="period" />
+  </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
+  <action id="PreviousWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="comma" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>

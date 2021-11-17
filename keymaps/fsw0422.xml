@@ -5,9 +5,6 @@
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
   </action>
-  <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl back_quote" />
-  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -16,11 +13,26 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
   <action id="EditorSelectLine" />
   <action id="ExportToTextFile" />
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindInPath">
@@ -39,8 +51,14 @@
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="GotoFile" />
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="Images.Thumbnails.Hide">
     <keyboard-shortcut first-keystroke="ctrl f4" />
+  </action>
+  <action id="Maven.CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="QuickChangeScheme" />
   <action id="ReformatCode">
@@ -68,6 +86,11 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="Terminal.ClearBuffer" />
+  <action id="TerminalDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="p" />

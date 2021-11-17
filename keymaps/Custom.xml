@@ -40,15 +40,16 @@
   <action id="GotoImplementation" />
   <action id="GotoLine" />
   <action id="JumpToLastWindow" />
+  <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="ResetToMySettings">
-    <keyboard-shortcut first-keystroke="shift ctrl o" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="r" />
   </action>
   <action id="ResetToTheirsSettings">
-    <keyboard-shortcut first-keystroke="shift ctrl o" second-keystroke="l" />
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="l" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt r" />

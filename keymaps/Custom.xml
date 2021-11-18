@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="b" />
   </action>
   <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="c" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
@@ -17,11 +17,14 @@
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="r" />
   </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="s" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="l" />
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="g" />
   </action>
   <action id="Activatesbt-shell-toolwindowToolWindow" />
   <action id="AddToFavoritesPopup" />
@@ -32,16 +35,23 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="CollapseSelection" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorSelectWord" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="FindUsages" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="f" />
+  </action>
   <action id="ForceOthersToFollowAction" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -58,14 +68,16 @@
   <action id="GotoDeclaration" />
   <action id="GotoImplementation" />
   <action id="GotoLine" />
+  <action id="ImplementMethods" />
   <action id="JumpToLastWindow" />
+  <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NextWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="period" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="PreviousWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="comma" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="QuickChangeScheme" />
   <action id="ReformatCode">
@@ -105,4 +117,5 @@
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="h" />
   </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
 </keymap>

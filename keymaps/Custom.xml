@@ -1,9 +1,21 @@
 <keymap version="1" name="Custom" parent="$default">
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="b" />
+  </action>
   <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="g" />
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="c" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
+  </action>
+  <action id="ActivateHierarchyToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
   </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="r" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
@@ -11,6 +23,7 @@
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="l" />
   </action>
+  <action id="Activatesbt-shell-toolwindowToolWindow" />
   <action id="AddToFavoritesPopup" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl h" />

@@ -11,6 +11,9 @@
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
   </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="v" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="n" />
   </action>

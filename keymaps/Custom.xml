@@ -1,4 +1,5 @@
 <keymap version="1" name="Custom" parent="$default">
+  <action id="$SelectAll" />
   <action id="ActivateBuildToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="b" />
   </action>
@@ -102,6 +103,9 @@
   <action id="ScalaConsole.Clean" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="ShowPackageDeps">
+    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="d" />
   </action>
   <action id="SmartSelect" />
   <action id="Stop">

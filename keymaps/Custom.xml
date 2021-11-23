@@ -9,6 +9,9 @@
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
   </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="f" />
+  </action>
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
   </action>
@@ -53,9 +56,7 @@
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="f" />
-  </action>
+  <action id="FindUsages" />
   <action id="ForceOthersToFollowAction" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />

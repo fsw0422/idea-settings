@@ -10,7 +10,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
   </action>
   <action id="ActivateFindToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="i" />
   </action>
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />

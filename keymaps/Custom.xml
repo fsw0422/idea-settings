@@ -1,15 +1,17 @@
 <keymap version="1" name="Custom" parent="$default">
   <action id="$SelectAll" />
   <action id="ActivateBuildToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="b" />
+    <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
-  <action id="ActivateFindToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
   </action>
@@ -42,8 +44,9 @@
   </action>
   <action id="CollapseSelection" />
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="Diff.ApplyLeftSide" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorSelectWord" />
   <action id="ExternalSystem.ProjectRefreshAction" />
@@ -87,9 +90,6 @@
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="QuickChangeScheme" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="alt f" />
-  </action>
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="r" />
   </action>
@@ -97,8 +97,9 @@
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="l" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
+  <action id="Scala.Desugar" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
@@ -110,13 +111,15 @@
   <action id="ShowPackageDeps">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="d" />
   </action>
+  <action id="ShowSettings" />
   <action id="SmartSelect" />
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="Terminal.ClearBuffer" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />

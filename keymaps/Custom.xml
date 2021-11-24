@@ -9,9 +9,7 @@
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="d" />
   </action>
-  <action id="ActivateFindToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="e" />
-  </action>
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="h" />
   </action>

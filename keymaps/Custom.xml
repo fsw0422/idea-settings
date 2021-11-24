@@ -1,37 +1,40 @@
 <keymap version="1" name="Custom" parent="$default">
   <action id="$SelectAll" />
   <action id="ActivateBuildToolWindow">
-    <keyboard-shortcut first-keystroke="alt b" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="alt c" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="ActivateDebugToolWindow">
-    <keyboard-shortcut first-keystroke="alt d" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
-    <keyboard-shortcut first-keystroke="alt f" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
   <action id="ActivateHierarchyToolWindow">
-    <keyboard-shortcut first-keystroke="alt h" />
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
   <action id="ActivateMavenToolWindow">
     <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="v" />
   </action>
+  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="alt n" />
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
   <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="alt r" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
+  <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="alt s" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
   <action id="ActivateVersionControlToolWindow">
-    <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="Activatesbt-shell-toolwindowToolWindow" />
   <action id="AddToFavoritesPopup" />
@@ -47,6 +50,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorSelectWord" />
   <action id="ExportToTextFile" />
@@ -80,6 +84,9 @@
     <keyboard-shortcut first-keystroke="ctrl f12" />
   </action>
   <action id="ImplementMethods" />
+  <action id="IntroduceConstant" />
+  <action id="IntroduceField" />
+  <action id="IntroduceProperty" />
   <action id="JumpToLastWindow" />
   <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NextWindow">
@@ -91,6 +98,7 @@
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="ReplaceInPath" />
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="r" />
   </action>
@@ -98,9 +106,11 @@
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="l" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="RunDashboard.Stop" />
   <action id="Scala.Desugar" />
+  <action id="Scala.RunConsole" />
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
@@ -109,18 +119,21 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="ShowFilterPopup" />
   <action id="ShowPackageDeps">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="d" />
   </action>
   <action id="ShowSettings" />
   <action id="SmartSelect" />
   <action id="Stop">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="Terminal.ClearBuffer" />
+  <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.DirectoryStructure" />
+  <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />
@@ -132,4 +145,5 @@
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="h" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>

@@ -17,7 +17,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
   <action id="ActivateMavenToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateProjectToolWindow">
@@ -87,6 +87,7 @@
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
   <action id="IntroduceProperty" />
+  <action id="IntroduceVariable" />
   <action id="JumpToLastWindow" />
   <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NextWindow">

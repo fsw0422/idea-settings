@@ -22,7 +22,7 @@
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="alt o" />
+    <keyboard-shortcut first-keystroke="alt r" />
   </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="alt s" />

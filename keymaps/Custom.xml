@@ -48,6 +48,7 @@
   <action id="EditorSelectWord" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
@@ -71,6 +72,9 @@
   <action id="GotoDeclaration" />
   <action id="GotoImplementation" />
   <action id="GotoLine" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
   <action id="ImplementMethods" />
   <action id="JumpToLastWindow" />
   <action id="MethodHierarchy.ImplementMethodAction" />

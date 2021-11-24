@@ -9,6 +9,9 @@
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="ActivateDependenciesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
@@ -42,6 +45,7 @@
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="CallHierarchy" />
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
@@ -86,6 +90,7 @@
   <action id="ImplementMethods" />
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
   <action id="IntroduceProperty" />
   <action id="IntroduceVariable" />
   <action id="JumpToLastWindow" />
@@ -120,6 +125,7 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowFilterPopup" />
   <action id="ShowPackageDeps">
     <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="d" />
@@ -131,10 +137,13 @@
   </action>
   <action id="Terminal.ClearBuffer" />
   <action id="TodoViewGroupByFlattenPackage" />
+  <action id="TodoViewGroupByShowPackages" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageGrouping.Directory" />
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />
+  <action id="UsageGrouping.Package" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />

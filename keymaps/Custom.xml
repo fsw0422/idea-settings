@@ -127,9 +127,6 @@
   </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowFilterPopup" />
-  <action id="ShowPackageDeps">
-    <keyboard-shortcut first-keystroke="ctrl a" second-keystroke="d" />
-  </action>
   <action id="ShowSettings" />
   <action id="SmartSelect" />
   <action id="Stop">

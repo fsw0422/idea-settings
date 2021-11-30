@@ -94,6 +94,9 @@
   <action id="IntroduceProperty" />
   <action id="IntroduceVariable" />
   <action id="JumpToLastWindow" />
+  <action id="Maven.ExecuteGoal">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NextWindow">
     <keyboard-shortcut first-keystroke="ctrl period" />
@@ -104,6 +107,7 @@
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="QuickChangeScheme" />
+  <action id="RecentFiles" />
   <action id="ReplaceInPath" />
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="r" />
@@ -132,6 +136,8 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Terminal.ClearBuffer" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowPackages" />
@@ -147,6 +153,9 @@
   </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="s" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="h" />

@@ -9,9 +9,6 @@
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
-  <action id="ActivateDependenciesToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl alt p" />
-  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
@@ -24,7 +21,7 @@
   </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl alt n" />
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
@@ -34,7 +31,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
@@ -99,13 +96,10 @@
   </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NextWindow">
-    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
-  <action id="PreviousWindow">
-    <keyboard-shortcut first-keystroke="ctrl comma" />
-  </action>
   <action id="QuickChangeScheme" />
   <action id="RecentFiles" />
   <action id="ReplaceInPath" />
@@ -129,6 +123,7 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowFilterPopup" />
   <action id="ShowSettings" />
@@ -136,6 +131,7 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
+  <action id="SurroundWith" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Terminal.ClearBuffer" />
@@ -147,6 +143,7 @@
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />
   <action id="UsageGrouping.Package" />
+  <action id="UsageGrouping.UsageType" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />

@@ -56,6 +56,7 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
@@ -118,6 +119,9 @@
   </action>
   <action id="ResetToTheirsSettings">
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="l" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -186,6 +190,10 @@
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="h" />
   </action>
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="b" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
 </keymap>

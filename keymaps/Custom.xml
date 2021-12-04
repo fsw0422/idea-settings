@@ -53,6 +53,11 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorChooseLookupItemDot" />
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorNextWord" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
   <action id="ExportToTextFile" />
   <action id="ExternalSystem.ProjectRefreshAction" />
@@ -66,6 +71,8 @@
   </action>
   <action id="FindUsages" />
   <action id="ForceOthersToFollowAction" />
+  <action id="ForceStepInto" />
+  <action id="ForceStepOver" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
@@ -95,6 +102,9 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="MoveStatementDown" />
   <action id="NextWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
@@ -123,11 +133,30 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowFilterPopup" />
   <action id="ShowSettings" />
   <action id="SmartSelect" />
+  <action id="SmartStepInto" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="StepIntoMyCode">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>

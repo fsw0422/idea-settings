@@ -60,6 +60,9 @@
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord" />
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="e" />
+  </action>
   <action id="ExportToTextFile" />
   <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileChooser.TogglePathShowing" />

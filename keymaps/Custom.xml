@@ -137,7 +137,9 @@
   <action id="ResetToTheirsSettings">
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="l" />
   </action>
-  <action id="Resume" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
@@ -164,6 +166,9 @@
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowContent" />
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="v" />
+  </action>
   <action id="ShowFilterPopup" />
   <action id="ShowSearchHistory" />
   <action id="ShowSettings" />
@@ -188,6 +193,9 @@
   <action id="Terminal.ClearBuffer" />
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="b" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.Directory" />
@@ -210,7 +218,7 @@
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="h" />
   </action>
   <action id="ViewBreakpoints">
-    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="b" />
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="a" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />

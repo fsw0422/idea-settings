@@ -48,6 +48,9 @@
   </action>
   <action id="CallHierarchy" />
   <action id="ChangesView.GroupBy.Directory" />
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="f12" />
   </action>

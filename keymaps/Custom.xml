@@ -199,6 +199,9 @@
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="b" />
   </action>
+  <action id="Tool_External Tools_Rebase to Origin/Trunk">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="y" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UsageGrouping.Directory" />

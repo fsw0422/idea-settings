@@ -207,6 +207,9 @@
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="b" />
   </action>
+  <action id="Tool_External Tools_Git Rebase onto Master">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
+  </action>
   <action id="Tool_External Tools_Git Rebase to Master">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
   </action>

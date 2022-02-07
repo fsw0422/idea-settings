@@ -9,37 +9,33 @@
   <action id="ActivateCommitToolWindow" />
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="d" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="f" />
   </action>
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="h" />
   </action>
   <action id="ActivateMavenToolWindow">
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateProjectToolWindow">
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ActivateRunToolWindow">
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
-    <keyboard-shortcut first-keystroke="comma" second-keystroke="g" />
   </action>
   <action id="Activatesbt-shell-toolwindowToolWindow" />
   <action id="AddToFavoritesPopup" />
@@ -62,6 +58,7 @@
     <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="CollapseSelection" />
+  <action id="ContextHelp" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
@@ -129,6 +126,7 @@
   <action id="Maven.ExecuteGoal">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
+  <action id="MavenHelper.QuickRunMavenGoal" />
   <action id="MethodDown" />
   <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="MethodOverloadSwitchDown" />

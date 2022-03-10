@@ -14,6 +14,9 @@
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
   <action id="ActivateHierarchyToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
@@ -94,9 +97,7 @@
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="Git.Commit.And.Push.Executor" />
-  <action id="Git.Commit.Stage">
-    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="c" />
-  </action>
+  <action id="Git.Commit.Stage" />
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="f" />
   </action>

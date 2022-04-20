@@ -172,6 +172,7 @@
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="SaveAll" />
   <action id="Scala.Desugar" />
   <action id="Scala.RunConsole" />
   <action id="Scala.ShowImplicits">
@@ -187,6 +188,9 @@
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.GroupByServiceGroups" />

@@ -148,6 +148,7 @@
     <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="e" />
   </action>
   <action id="RecentFiles" />
+  <action id="Replace" />
   <action id="ReplaceInPath" />
   <action id="ResetToMySettings">
     <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="r" />
@@ -190,7 +191,7 @@
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
   <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
   <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.GroupByServiceGroups" />
@@ -237,6 +238,7 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="UsageGrouping.Directory" />
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FileStructure" />

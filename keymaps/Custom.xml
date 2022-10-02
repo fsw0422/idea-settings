@@ -96,7 +96,9 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
-  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="Git.Commit.Stage" />
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="f" />
@@ -248,6 +250,9 @@
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />
+  </action>
+  <action id="Vcs.Push.Force">
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="s" />

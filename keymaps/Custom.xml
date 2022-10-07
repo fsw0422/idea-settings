@@ -98,10 +98,16 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="b" />
+  </action>
   <action id="Git.Commit.And.Push.Executor">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="Git.Commit.Stage" />
+  <action id="Git.CreateNewBranch">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="w" />
+  </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="f" />
   </action>

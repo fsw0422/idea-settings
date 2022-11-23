@@ -71,6 +71,9 @@
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="DuplicatesForm.SendToLeft" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />

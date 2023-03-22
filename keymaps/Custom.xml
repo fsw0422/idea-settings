@@ -285,4 +285,8 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.BrowserAction" />
+  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
 </keymap>

@@ -123,6 +123,9 @@
   <action id="Git.Unstash">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="m" />
   </action>
+  <action id="Github.View.Pull.Request">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
+  </action>
   <action id="GotoAction" />
   <action id="GotoBookmark1" />
   <action id="GotoDeclaration" />

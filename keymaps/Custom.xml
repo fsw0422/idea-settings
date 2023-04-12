@@ -172,7 +172,7 @@
   </action>
   <action id="RecentFiles" />
   <action id="Refresh">
-    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="o" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Replace" />
   <action id="ReplaceInPath" />
@@ -277,6 +277,9 @@
   </action>
   <action id="Vcs.Push.Force">
     <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="Vcs.RefreshFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="s" />

@@ -171,6 +171,9 @@
     <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="e" />
   </action>
   <action id="RecentFiles" />
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="o" />
+  </action>
   <action id="Replace" />
   <action id="ReplaceInPath" />
   <action id="ResetToMySettings">

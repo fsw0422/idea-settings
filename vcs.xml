@@ -1,6 +1,5 @@
 <application>
   <component name="Vcs.Log.App.Settings">
-    <option name="SHOW_TAG_NAMES" value="true" />
     <option name="COLUMN_ID_ORDER">
       <list>
         <option value="Default.Root" />
@@ -10,8 +9,10 @@
         <option value="Space.CommitStatus" />
       </list>
     </option>
+    <option name="SHOW_TAG_NAMES" value="true" />
   </component>
   <component name="VcsApplicationSettings">
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="false" />
     <option name="SHOW_EDITOR_PREVIEW_ON_DOUBLE_CLICK" value="false" />
   </component>
 </application>

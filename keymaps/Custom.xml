@@ -126,6 +126,9 @@
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="l" />
   </action>
+  <action id="Github.PullRequest.Copy.Link">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="g" />
+  </action>
   <action id="Github.View.Pull.Request">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
   </action>

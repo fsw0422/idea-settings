@@ -193,7 +193,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="RunAnything">
-    <keyboard-shortcut first-keystroke="windows" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="RunConfigurationAsAction_Debug_Run Application_default_target">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
@@ -304,7 +304,5 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
   <action id="uk.co.ben_gibson.git.link.ui.actions.menu.BrowserAction" />
-  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction">
-    <keyboard-shortcut first-keystroke="ctrl alt c" />
-  </action>
+  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction" />
 </keymap>

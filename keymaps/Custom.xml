@@ -35,7 +35,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl alt z" />
+    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
@@ -158,13 +158,17 @@
   <action id="MethodOverloadSwitchUp" />
   <action id="MethodUp" />
   <action id="MoveStatementDown" />
-  <action id="NextTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
   <action id="NextWindow">
     <keyboard-shortcut first-keystroke="ctrl 1" />
   </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
-  <action id="PreviousTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
   <action id="PreviousWindow">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
@@ -191,9 +195,6 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
-  </action>
-  <action id="RunAnything">
-    <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="RunConfigurationAsAction_Debug_Run Application_default_target">
     <keyboard-shortcut first-keystroke="shift ctrl a" />

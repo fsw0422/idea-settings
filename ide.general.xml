@@ -12,5 +12,8 @@
     <entry key="editor.focus.mode.color.dark" value="474747" />
     <entry key="i18n.locale" value="" />
     <entry key="moved.to.new.ui" value="true" />
+    <entry key="ide.balloon.shadow.size" value="0" />
+    <entry key="ide.editor.tab.selection.animation" value="true" />
+    <entry key="ide.new.editor.tabs.vertical.borders" value="true" />
   </component>
 </application>

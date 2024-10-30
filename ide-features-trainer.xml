@@ -2,7 +2,7 @@
   <component name="LessonStateBase">
     <option name="map">
       <map>
-        <entry key="java.onboarding" value="NOT_PASSED" />
+        <entry key="idea.onboarding" value="NOT_PASSED" />
       </map>
     </option>
   </component>

@@ -161,6 +161,7 @@
           </root>
         </sourcePath>
       </roots>
+      <additional />
     </jdk>
     <jdk version="2">
       <name value="corretto-21 (2)" />

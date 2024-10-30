@@ -1,0 +1,314 @@
+<keymap version="1" name="Custom" parent="$default">
+  <action id="$SelectAll" />
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
+  <action id="ActivateBuildToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="ActivateCommitToolWindow" />
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
+  <action id="ActivateHierarchyToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
+  </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
+  <action id="ActivateProblemsViewToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="ActivateServicesToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
+  <action id="Activatesbt-shell-toolwindowToolWindow" />
+  <action id="AddToFavoritesPopup" />
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Group.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Group.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="CallHierarchy" />
+  <action id="ChangesView.GroupBy.Directory" />
+  <action id="ChangesView.Revert" />
+  <action id="ChangesView.ToggleCommitUi" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="c" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="CollapseSelection" />
+  <action id="ContextHelp" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="Debugger.AddToWatch">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="w" />
+  </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="EditorChooseLookupItemDot" />
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
+  <action id="EditorSelectWord" />
+  <action id="EvaluateExpression" />
+  <action id="ExportToTextFile" />
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="FindUsages" />
+  <action id="ForceOthersToFollowAction" />
+  <action id="ForceStepInto" />
+  <action id="ForceStepOver" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="b" />
+  </action>
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="Git.Commit.Stage" />
+  <action id="Git.CreateNewBranch">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="w" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="f" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="u" />
+  </action>
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="n" />
+  </action>
+  <action id="Git.Unstash">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="m" />
+  </action>
+  <action id="Github.Create.Pull.Request">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="l" />
+  </action>
+  <action id="Github.PullRequest.Open.Link">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="o" />
+  </action>
+  <action id="Github.View.Pull.Request">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
+  </action>
+  <action id="GotoAction" />
+  <action id="GotoBookmark1" />
+  <action id="GotoDeclaration" />
+  <action id="GotoImplementation" />
+  <action id="GotoLine" />
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="t" />
+  </action>
+  <action id="Hg.Commit.And.Push.Executor" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
+  <action id="ImplementMethods" />
+  <action id="IntroduceConstant" />
+  <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
+  <action id="IntroduceProperty" />
+  <action id="IntroduceVariable" />
+  <action id="JumpToLastWindow" />
+  <action id="MavenHelper.QuickRunMavenGoal" />
+  <action id="MethodDown" />
+  <action id="MethodHierarchy.ImplementMethodAction" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="MethodUp" />
+  <action id="MoveStatementDown" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="OverrideMethods" />
+  <action id="ParameterInfo" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="PreviousWindow">
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="QuickChangeScheme" />
+  <action id="QuickEvaluateExpression">
+    <mouse-shortcut keystroke="alt button1" />
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="e" />
+  </action>
+  <action id="RecentFiles" />
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Replace" />
+  <action id="ReplaceInPath" />
+  <action id="ResetToMySettings">
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="r" />
+  </action>
+  <action id="ResetToTheirsSettings">
+    <keyboard-shortcut first-keystroke="ctrl o" second-keystroke="l" />
+  </action>
+  <action id="ResourceExplorer.show" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="r" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="RunConfigurationAsAction_Debug_Run Application_default_target">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="RunConfigurationAsAction_Debug_Run Tests_default_target">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="RunDashboard.Stop" />
+  <action id="RunToCursor">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="SaveAll" />
+  <action id="Scala.Desugar" />
+  <action id="Scala.RunConsole" />
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
+  </action>
+  <action id="ScalaConsole.Clean" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="SearchEverywhere.NavigateToNextGroup">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="ServiceView.GroupByContributor" />
+  <action id="ServiceView.GroupByServiceGroups" />
+  <action id="ServiceView.ShowServices" />
+  <action id="ShowContent" />
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="v" />
+  </action>
+  <action id="ShowFilterPopup" />
+  <action id="ShowSearchHistory" />
+  <action id="ShowSettings" />
+  <action id="SmartSelect" />
+  <action id="SmartStepInto" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="StepIntoMyCode" />
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="SurroundWith" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Terminal.ClearBuffer" />
+  <action id="TodoViewGroupByFlattenPackage" />
+  <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="b" />
+  </action>
+  <action id="Tool_External Tools_Git Rebase onto Master">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
+  </action>
+  <action id="Tool_External Tools_Git Rebase to Master">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
+  </action>
+  <action id="Tool_External Tools_Rebase to Origin/Trunk">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="y" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageFiltering.ReadAccess" />
+  <action id="UsageGrouping.Directory" />
+  <action id="UsageGrouping.DirectoryStructure" />
+  <action id="UsageGrouping.FileStructure" />
+  <action id="UsageGrouping.Package" />
+  <action id="UsageGrouping.UsageType" />
+  <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />
+  </action>
+  <action id="Vcs.Push.Force">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="Vcs.RefreshFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="Vcs.RollbackChangedLines" />
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="s" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="h" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="a" />
+  </action>
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.BrowserAction">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="uk.co.ben_gibson.git.link.ui.actions.menu.CopyAction">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
+</keymap>

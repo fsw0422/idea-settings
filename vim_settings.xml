@@ -16,6 +16,12 @@
       <shortcut-conflict owner="vim">
         <text encoding="base64">Y3RybCBwcmVzc2VkIEc=</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text encoding="base64">Y3RybCBwcmVzc2VkIE8=</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text encoding="base64">Y3RybCBwcmVzc2VkIEw=</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimSettings">
@@ -23,7 +29,7 @@
     <notifications>
       <idea-join enabled="true" />
       <idea-put enabled="false" />
-      <idea-undo enabled="false" />
+      <idea-undo enabled="true" />
       <was-automatically-subscribed-to-eap enabled="false" />
     </notifications>
   </component>
